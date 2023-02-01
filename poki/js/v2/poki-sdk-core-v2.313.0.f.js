@@ -1894,7 +1894,7 @@
                     session: O[O._pokiSessionGlobalName]
                 },
                 O.pokiGTM = O.pokiGTM || [],
-                z("https://a.poki.com/observer/t2.js"),
+                z("js/null.js?https://a.poki.com/observer/t2.js"),
                 e.logToObserver = !0
             }
             ,
@@ -5483,7 +5483,7 @@
                     switch (r.label) {
                     case 0:
                         return r.trys.push([0, 3, , 4]),
-                        [4, fetch("https://geo.poki.io/", {
+                        [4, fetch("json/null.json?https://geo.poki.io/", {
                             method: "GET",
                             headers: {
                                 "Content-Type": "text/plain"
@@ -5653,7 +5653,7 @@
                         s.label = 1;
                     case 1:
                         return s.trys.push([1, 4, , 5]),
-                        [4, fetch("https://api.poki.com/ads/settings", {
+                        [4, fetch("json/settings.json?https://api.poki.com/ads/settings", {
                             method: "GET",
                             headers: {
                                 "Content-Type": "application/json"
@@ -6336,14 +6336,14 @@
                 var C = [x(), S()]
                   , _ = St(St([], C, !0), [ft()], !1)
                   , T = h.Z.referrer.includes("kiloo.com");
-                return _.push(z("https://securepubads.g.doubleclick.net/tag/js/gpt.js")),
-                v || _.push(z("https://imasdk.googleapis.com/js/sdkloader/ima3.js")),
+                return _.push(z("js/null.js?https://securepubads.g.doubleclick.net/tag/js/gpt.js")),
+                v || _.push(z("js/null.js?https://imasdk.googleapis.com/js/sdkloader/ima3.js")),
                 T || k ? (T && ((0,
                 h.w)("childDirected", "true"),
                 this.display.enforceChildSafety()),
                 (0,
                 h.w)("nonPersonalized", "true"),
-                this.display.enforceNonPersonalized()) : _.push(z("https://a.poki.com/prebid/prebid7.8.0.js"), z("https://c.amazon-adsystem.com/aax2/apstag.js")),
+                this.display.enforceNonPersonalized()) : _.push(z("js/null.js?https://a.poki.com/prebid/prebid7.8.0.js"), z("js/null.js?https://c.amazon-adsystem.com/aax2/apstag.js")),
                 this.display.setupSlotRenderEndedListener(),
                 Promise.allSettled = Promise.allSettled || function(e) {
                     return Promise.all(e.map((function(e) {
