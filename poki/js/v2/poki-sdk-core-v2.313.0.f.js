@@ -5262,7 +5262,7 @@
             "/" !== e[0] && (e = "/" + e);
             var t = encodeURIComponent(window.location.protocol + "//" + window.location.host + e + window.location.search)
               , n = encodeURIComponent(document.referrer);
-            return fetch("https://devs-api.poki.com/gameinfo/@sdk?href=" + t + "&referrer=" + n, {
+            return fetch("json/null.json?https://devs-api.poki.com/gameinfo/@sdk?href=" + t + "&referrer=" + n, {
                 method: "GET",
                 headers: {
                     "Content-Type": "text/plain"
